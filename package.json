@@ -1,0 +1,36 @@
+{
+  "name": "webpack-extract-module-to-global",
+  "version": "0.1.0",
+  "description": "A plugin for webpack to extract some modules to global space",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspirisen/webpack-extract-module-to-global.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aspirisen/webpack-extract-module-to-global/issues"
+  },
+  "homepage": "https://github.com/aspirisen/webpack-extract-module-to-global#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.8",
+    "@types/webpack": "^5.28.0",
+    "jest": "^27.4.7",
+    "memfs": "^3.4.1",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.2",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0"
+  }
+}
